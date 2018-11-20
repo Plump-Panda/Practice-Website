@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <meta charset="utf-8">
+    <title>Contacts Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Header contains everything at the top of the page, the logo, title, and youtube, FB, and reddit icons. -->
+    <!-- Logo will take you home, each icon will take you to their respective websites -->
+    <!-- Also includes the nav bar -->
+    <header>
+        <a href="index.html"><img class="col-1 floatLeft" alt="Logo Pic" src="images/logo.png"></a>
+        <h1 class="col-3 title">The Reviews</h1>
+        <a href="https://www.reddit.com/"><img class="col-1" alt="Reddit Pic" src="images/RedditLogo.png"></a>
+        <a href="https://www.facebook.com/"><img class="col-1" alt="FB Pic" src="images/FBLogo.png"></a>
+        <a href="https://www.youtube.com/"><img class="col-1" alt="Youtube Pic" src="images/YTLogo.png"></a>
+        <nav id="navBar">
+            <ul>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="about.html"><strong>About</strong></a></li>
+                <li><a href="blog.html"><strong>Blog</strong></a></li>
+                <li><a href="contacts.html"><strong>Contacts</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Will display the links on the left of the screen -->
+    <article class="col-1 floatLeft">
+        <h2 class="center">Other Links</h2>
+        <ul id="quickLinks">
+            <li><a href="https://myanimelist.net/"><strong>My Anime List</strong></a></li>
+            <li><a href="https://www.crunchyroll.com/"><strong>Crunchyroll</strong></a></li>
+            <li><a href="https://www.netflix.com/ca/"><strong>Netflix</strong></a></li>
+        </ul>
+    </article>
+    <!-- Holds all of the contact information and map -->
+    <div class="col-9">
+        <!-- Displays the contact information on left -->
+        <section class="leftContactInfo">
+            <h2 class="contactHeaders">Phone Number</h2>
+            <p>123-456-7890</p>
+            <h2>Busines Email</h2>
+            <p>abc@yeet.ca</p>
+        </section>
+        <!-- Displays map in the middle -->
+        <section class="contactInfo">
+            <h2>Find Us Here</h2>
+            <img alt="map.png" src="images/map.png">
+        </section>
+            <!-- Displays the contact information on right -->
+            <section class="rightContactInfo">
+                <h2>Fax Number</h2>
+                <p>098-765-4321</p>
+                <h2>Request Email</h2>
+                <p>yeet@yeet.ca</p>
+            </section>
+    </div>
+    <article id="rightSection" class="col-2">
+        <h2 class="rightHeaders">Newest Reviews</h2>
+        <!-- Slide show goes here -->
+        <p class="sideSlideShow">Slide show of images that I don't know how to make yet</p>
+        <h2 class="rightHeaders">Popular Reviews</h2>
+        <!-- Slide show goes here -->
+        <p class="sideSlideShow">Slide show of images that I don't know how to make yet</p>
+    </article>
+    <section>
+        <h2 id="submitHeader">Write your feed back here!</h2>
+        <form id="submitArea">
+            <textarea rows="20" cols="80" id="textArea"></textarea>
+            <input type="submit" id="submitButton" value="Submit!" />
+        </form>
+    </section>
+    <!-- Displays copyright stuff -->
+    <footer id="footer">
+        <p>&copy; Some words that are supposed to be here</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+Removed the youtube, facebook, and reddit icons always being available on the bottom of the screen. Found it redundent because 
+its always available to the user at the top right of the screen
+
+Removed the search bar because I didn't know how to put it there. Hoping to put the search bar where it is shown on the wireframe once we
+learn more JS in class

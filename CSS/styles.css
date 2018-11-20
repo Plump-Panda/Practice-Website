@@ -1,0 +1,287 @@
+
+/*column grids*/
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+/* Makes it take up the whole width of the screen, aligns the text to the center, changes font */
+nav {
+    width: 100%;
+    text-align: center;
+    font-family: Trebuchet MS;
+    padding-bottom: 1%;
+}
+/* Aligns text to center, changes font, gets rid of bullet points */
+li {
+    text-align: center;
+    font-family: Helvetica;
+    list-style-type: none;
+}
+/* Makes nav bar display sideways, changes text colour, changes width of each section in the nav bar */
+nav ul li a{
+    display: block;
+    width: 25%;
+    float: left;
+    color: white;
+}
+/* Changes background colour */
+body{
+  background-color: #eee2df;
+}
+/* Makes all p this font */
+p{
+  font-family: Bordini;
+}
+/* Makes all h2 this font and this background color */
+h2{
+  font-family: Helvetica; 
+  background-color: #188fa7; 
+}
+/* Makes all h2 this font and this background color */
+h3{
+  font-family: Helvetica; 
+  background-color: #f8bd7f;
+}
+/* Makes it take up whole width of screen, changes background color */
+footer{
+  width: 100%;
+  float: left;
+  background-color: #c3dfe0;
+}
+/* Changes background color */
+header{
+  background-color: #16a394;
+}
+.floatLeft{
+  float: left;
+}
+/* Makes it float, changes width, sets the height, makes text aligned to the center */
+.title{
+    float: left;
+    width: 60.5%;
+    height: 100px;
+    text-align: center;
+}
+/* Makes it float, adds padding */
+.icons{
+  float: right;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+/* Aligns text left, makes it float, adds padding */
+.article{
+  text-align: left;
+  float: left;
+  padding-left: 1.5%;
+}
+/* Aligns text to the center, sets width */
+.articleTitles{
+  text-align: center;
+  width: 55%;
+}
+/* Makes it float, aligns text to center, adds padding */
+.contactInfo{
+  float: left;
+  text-align: center;
+  padding-bottom: 2.5%;
+}
+/* Makes it float, aligns text to center, adds padding */
+.leftContactInfo{
+  float: left;
+  text-align: center;
+  padding-left: 4.5%;
+  padding-right: 0.50%;
+}
+/* Makes it float, aligns text to center, adds padding */
+.rightContactInfo{
+  float: left;
+  text-align: center;
+  padding-left: 0.5%;
+}
+/* Sets width */
+.slideShowPicSideBar{
+  width: 35%;
+}
+/* Makes it float, aligns text to center, sets width, changes margin, adds background color */
+.aboutHeaders{
+  float: left;
+  text-align: center;
+  width: 45%;
+  margin-left: 2%;
+  background-color: #188fa7;
+}
+/* Makes it float, aligns text to center, sets width, changes margin, adds background color */
+.topLeftHeader{
+  float: left;
+  text-align: center;
+  width: 45%;
+  margin-left: 6%;
+  background-color: #188fa7;
+}
+/* Makes it float, aligns text to center, sets width, changes margin, adds background color */
+.topLeftArticle{
+  float: left;
+  text-align: center;
+  width: 45%;
+  padding-left: 6%;
+}
+/* Makes it float, aligns text to center, sets width, adds padding */
+.aboutArticle{
+  float: left;
+  text-align: center;
+  width: 45%;
+  padding-left: 1.5%;
+}
+/* Adds padding, makes it float */
+.middleAboutSection{
+  padding-left: 9%;
+  padding-top: 1%;
+  float: left;
+}
+/* Makes it float, centers text */
+.middleArticle{
+  float: left;
+  text-align: center;
+}
+/* Puts border around text to represent the section where a slide show should be */
+.sideSlideShow{
+  border-width: 1px;
+  border-style: dotted;
+  border-color: black;
+  text-align: center;
+}
+/* Makes it float, sets width */
+.besidePic{
+  float: left;
+  width: 50%;
+}
+/* Centers text */
+.rightHeaders{
+  text-align: center;
+}
+/* Makes it float, changes background color */
+#navBar {
+    float: left;
+    background-color: #493b2a
+}
+/* Makes it float, adds padding */
+#mainSection{
+  float: left;
+  padding-top: 1%;
+  padding-left: 2.5%;
+}
+/* Adds padding, centers text, puts border around text to represent the section where a slide show should be */
+#slideShow{
+  padding-top: 15%;
+  padding-bottom: 15%;
+  text-align: center;
+  border-color: black;
+  border-width: 1px;
+  border-style: dotted;
+}
+/* Adds padding */
+#mainTitle{
+  padding-left: 40%;
+}
+
+/* Adds padding */
+#topRightHeader{
+  width: 60%;
+}
+/* Sets width, adds padding */
+#topRightArticle{
+  width: 60%;
+  padding-left: 2%;
+}
+/* Adds padding, sets margin */
+#botRightPic{
+  padding-top: 15%;
+  margin-right: 10%;
+}
+/* Makes it float, adds padding */
+#rightSectionAbout{
+  float: left;
+  padding-left: 5%;  
+}
+/* Makes it float, adds padding */
+#rightSection{
+  float: left;
+  padding-left: 5%;
+}
+/* Centers text */
+#mainHeader{
+  text-align: center;
+}
+/* Sets height, sets width, adds padding */
+#submitArea{
+  height: 25%;
+  width: 45%;
+  padding-left: 20.25%;
+}
+/* Nothing can touch its left side, centers text, sets width, sets margin, adds padding, changes background colour */
+#submitHeader{
+  clear: left;
+  text-align: center;
+  width: 35%;
+  margin-left: 24.25%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #188fa7;
+}
+/* Makes it not resizable */
+#textArea{
+  resize: none;
+}
+/* Sets width, adds padding, centers text, sets margin */
+#submitButton{
+  width: 25%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  margin-left: 35%;
+}
+
+/* Makes it float, adds padding */
+#blogPic{
+  float: left;
+  padding-right: 2%;
+}
+/* Centers text */
+#blogHeader{
+  text-align: center;
+}
+/* Adds padding, makes it float */
+#blogRightSection{
+  padding-left: 2%;
+  float: right;
+}
+/* Makes it float, adds padding */
+#blogMainSection{
+  float: left;
+  padding-left: 5%;
+}
+/* Sets width, centers text */
+#subHeading{
+  width: 30%;
+  text-align: center;
+}
+/* Nothing can be to the left of the element */
+#clearLeft{
+  clear: left;
+}
+/* Sets width */
+#quickLinks{
+  width: 100%;
+}
+/* Centers text */
+.center{
+  text-align: center;
+}
