@@ -1,0 +1,655 @@
+ *{
+    /* border-color: black;
+     border-width: 1px;
+     border-style: dotted;
+     */
+}
+/*column grids*/
+ .col-1{
+     width: 8.33% 
+}
+ .col-2{
+     width: 16.66% 
+}
+ .col-3{
+     width: 25% 
+}
+ .col-4{
+     width: 33.33% 
+}
+ .col-5{
+     width: 41.66% 
+}
+ .col-6{
+     width: 50% 
+}
+ .col-7{
+     width: 58.33% 
+}
+ .col-8{
+     width: 66.66% 
+}
+ .col-9{
+     width: 75% 
+}
+ .col-10{
+     width: 83.33% 
+}
+ .col-11{
+     width: 91.66% 
+}
+ .col-12{
+     width: 100% 
+}
+/* Makes it take up the whole width of the screen, aligns the text to the center, changes font */
+ nav {
+     width: 100%;
+     text-align: center;
+     font-family: Trebuchet MS;
+     padding-bottom: 1%;
+}
+/* Aligns text to center, changes font, gets rid of bullet points for the other links sections*/
+ ul {
+     text-align: center;
+     font-family: Helvetica;
+     list-style-type: none;
+}
+/* Makes nav bar display sideways, changes text colour, changes width of each section in the nav bar */
+ nav ul li a{
+     display: block;
+     width: 25%;
+     float: left;
+     color: white;
+}
+/* Changes background colour */
+ body{
+     background-color: #eee2df;
+}
+/* Makes all p this font */
+ p{
+     font-family: 'PT Sans', sans-serif;
+}
+/* Makes all h1 this font */
+ h1{
+     font-family: 'Raleway', sans-serif;
+     font-size: 2.5em;
+}
+/* Makes all h2 this font and this background color */
+ h2{
+     font-family: 'Didact Gothic', sans-serif;
+     background-color: #188fa7;
+}
+/* Makes all h2 this font and this background color */
+ h3{
+     font-family: 'Didact Gothic', sans-serif;
+     background-color: #f8bd7f;
+}
+/* Fixes the form stuff */
+ form{
+     display: block;
+     width: 100%;
+     padding-top: 1%;
+     float: left;
+     clear: both;
+}
+ label{
+     width: 30%;
+     margin-left: 30%;
+     margin-top: 2%;
+     color: black;
+     float: left;
+     clear: right;
+     text-align: center;
+     background-color: #188fa7;
+     font-family: 'Didact Gothic', sans-serif;
+     font-size: 1.3em;
+}
+/* Padding increases the height of the box but the text isn't at the top */
+ input{
+     width: 35%;
+     margin-right: 10%;
+     margin-top: 0.5%;
+     font-size: 1em;
+     font-family: 'Didact Gothic', sans-serif;
+}
+ textarea{
+     width: 50%;
+     margin-top: 0.5%;
+     margin-right: 9%;
+     resize: none;
+}
+/* Makes it take up whole width of screen, changes background color */
+ footer{
+     width: 100%;
+     float: left;
+     background-color: #c3dfe0;
+}
+/* ------------------------------ */
+/* General class to make things float */
+ .floatLeft{
+     float: left;
+}
+/* ------------------------------ */
+/* This section was taken from my A3, used for the drop down menu in the mobile/tablet layout */
+ .dropdown {
+     float: left;
+     margin-left: 5%;
+     display: none;
+}
+/* Absolute so that it won't change the size of the header section */
+ .dropdownStuff {
+     position: absolute;
+     background-color: #D3D3D3;
+     z-index: 1;
+     display: none;
+     padding-top: 1.5%;
+     padding-bottom: 1.5%;
+}
+/*How things are shown on the drop down menu */
+ .dropdown:hover .dropdownStuff {
+     display: inline-block;
+     width: 40%;
+}
+ #dropdownPic {
+     width: 35%;
+     float: left;
+}
+/* ------------------------------ */
+/* positions and sizes the elements in header */
+ .title{
+     float: left;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     width: 73.5%;
+     text-align: center;
+     background-color: #16a394;
+}
+ .icons{
+     float: right;
+     padding-left: 0.5%;
+     padding-right: 0.5%;
+     margin-top: 2.1%;
+     width: 5%;
+     height: 5%;
+}
+ #logo{
+     margin-top: 1%;
+     padding-left: 0.5%;
+     padding-right: 0.5%;
+     width: 7%;
+     height: 7%;
+}
+ .sideLinks{
+     margin-top: 1%;
+     margin-left: 1%;
+     border-color: black;
+     border-style: dotted;
+     border-width: 1px;
+     padding-right: 2%;
+}
+/* Makes it float, changes background color */
+ #navBar {
+     float: left;
+     background-color: #493b2a 
+}
+/* ------------------------------ */
+/* posistion and sizes the elements on the home page */
+ .article{
+     width: auto;
+     text-align: left;
+     float: left;
+     padding-left: 1.5%;
+}
+/* Aligns text to the center, sets width */
+ .articleTitles{
+     text-align: center;
+     width: 55%;
+}
+/* Makes it float, aligns text to center, adds padding */
+ .contactInfo{
+     float: left;
+     text-align: center;
+     height: 400px;
+     padding-left: 3%;
+     padding-right: 3%;
+}
+/* Slide show section */
+ .slideshowSection{
+     float: left;
+     padding-top: 1%;
+     padding-left: 2.5%;
+     position: relative;
+}
+/* Sets width */
+ .slideShowPicSideBar{
+     width: 35%;
+}
+ .featuredSectionButtons{
+     top: 53%;
+     height: 10%;
+     position: absolute;
+     width: 5%;
+}
+ .featuredTitles{
+     margin-left: 9.5%;
+     margin-top: 40%;
+     position: absolute;
+     width: 81.5%;
+     height: 10%;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     font-size: 2em;
+     opacity: 0.5;
+     background-color: black;
+}
+/* Buttons for the featured articles slide show */
+ #rightButton{
+     margin-left: 86.2%;
+}
+ #leftButton{
+     margin-left: 9.5%;
+}
+ .homeArticleSection{
+     padding-left: 8%;
+}
+/* Adds padding */
+ #mainTitle{
+     text-align: center;
+}
+/* ------------------------------ */
+/* positions and sizes the elements on the about page */
+ .aboutHeaders{
+     float: left;
+     text-align: center;
+     width: 45%;
+     margin-left: 2%;
+     background-color: #188fa7;
+}
+/* Makes it float, aligns text to center, sets width, adds padding */
+ .aboutArticle{
+     float: left;
+     text-align: center;
+     width: 45%;
+     padding-left: 1.5%;
+}
+ .aboutPics{
+     width: 45%;
+}
+ .aboutSection{
+     margin-left: 8%;
+     margin-top: 1%;
+}
+/* Adds padding */
+ #howWeStartedHeader{
+     width: 30%;
+     margin-left: 35%;
+}
+/* Sets width, adds padding */
+ #howWeStartedArticle{
+     width: 95%;
+    /* margin-left: 0%;
+     margin-top: 10%;
+     */
+}
+ #howWeStartedPic{
+     margin-top: 5%;
+     width: 80%;
+}
+ #aboutFacePic{
+     margin-left: 20%;
+     width: 25%;
+}
+ #howWeStartedSection{
+     margin-left: 50%;
+}
+/* ------------------------------ */
+/* positions and sizes the elements on the blog page */
+ .blogHeaders{
+     width: 50%;
+     padding: 1%;
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 3%;
+}
+ .blogDates{
+     width: 30%;
+     padding: 0.5%;
+     text-align: center;
+     margin: 0 auto;
+}
+ .blogArticles{
+     padding: 1%;
+     text-align: center;
+}
+/* Makes it float, adds padding */
+ #blogPic{
+     float: left;
+     padding-right: 2%;
+}
+/* Centers text */
+ #blogHeader{
+     text-align: center;
+}
+/* Adds padding, makes it float */
+ #blogRightSection{
+     padding-left: 2%;
+     float: right;
+}
+/* Makes it float, adds padding */
+ #blogMainSection{
+     float: left;
+     padding-left: 5%;
+}
+/* ------------------------------ */
+/* adjusts position and size of elements on the contact page */
+ .container{
+     width: 50%;
+     text-align: center;
+     margin: 0 auto;
+}
+ #buttonSection{
+     margin-top: 2%;
+     padding-bottom: 2%;
+     width: 100%;
+     text-align: center;
+}
+ #mapPic{
+     width: 90%;
+}
+ #articleInfo{
+     display: none;
+}
+/* ------------------------------ */
+/* positions and sizes the newest/popular slideshow section that appears on every page */
+/* Centers text */
+ .rightHeaders{
+     text-align: center;
+}
+ .slideshowPic{
+     width: 85%;
+     margin-left: 10%;
+     display: none;
+}
+ .popularSlideshowPic{
+     width: 80%;
+     margin-left: 10%;
+     display: none;
+}
+ .newSlideshowPic{
+     width: 80%;
+     margin-left: 10%;
+     display: none;
+}
+ .sideSectionButtons{
+     top: 28%;
+     position: absolute;
+     width: 8%;
+     height: 15%;
+     margin-top: 20%;
+}
+ .rightButtons{
+     margin-left: 61.5%;
+}
+ .leftButtons{
+     margin-left: 7.5%;
+}
+ .sideTitles{
+     margin-left: 8%;
+     margin-top: 24%;
+     position: absolute;
+     width: 61%;
+     height: 15%;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     font-size: 1em;
+     opacity: 0.5;
+     background-color: black;
+}
+/* Makes it float, adds padding */
+ .rightSection{
+     padding-left: 5%;
+     position: relative;
+     float: left;
+}
+/* ------------------------------ */
+/* styles the other links section on every page */
+/* Sets width */
+ #quickLinks{
+     margin-left: 12%;
+     width: 100%;
+}
+/* Centers text */
+ .center{
+     text-align: center;
+}
+/* ------------------------------ */
+/* Phones */
+ @media only screen and (min-width: 0px) and (max-width: 767px) {
+    /* Changes width of all col */
+     [class*="col-"] {
+         width: 100%;
+    }
+    /* ------------------------------ */
+    /* Make things disappear */
+     .sideLinks{
+         display: none;
+    }
+     .icons{
+         display: none;
+    }
+     .rightSection{
+         display: none;
+    }
+     #logo{
+         display: none;
+    }
+     #navBar{
+         display: none;
+    }
+    /* ------------------------------ */
+    /* adjusts elements in header */
+     .title{
+         width: 90%;
+         margin-left: 5%;
+    }
+     .dropdown{
+         display: block;
+    }
+    /* ------------------------------ */
+    /* adjusts the posistion and size of elements on the home page */
+     .articleTitles{
+         margin: 0 auto;
+    }
+     .homeArticleSection{
+         padding: 0%;
+    }
+     .slideshowPic{
+         margin-left: 7%;
+    }
+     .featuredSectionButtons{
+         top: 50%;
+    }
+     #rightButton{
+         margin-left: 87%;
+    }
+     #leftButton{
+         margin-left: 7.25%;
+    }
+     .slideshowSection{
+         padding-left: 0%;
+         padding-bottom: 10%;
+         margin-top: 2%;
+    }
+     .article{
+         text-align: center;
+    }
+     .featuredTitles{
+         font-size: 1.2em;
+         margin-left: 7%;
+         width: 84.25%;
+    }
+    /* ------------------------------ */
+    /* adjusts padding for the articles on the blog page */
+     #blogMainSection{
+         padding: 0%;
+    }
+    /* ------------------------------ */
+    /* adjusts the posistion and size of elements on the about page */
+     .mainArticlePic{
+         margin-top: 2%;
+         margin-left: 38%;
+         width: 25%;
+    }
+     .aboutSection{
+         margin-left: 0%;
+         margin-top: 1%;
+    }
+     .aboutPics{
+         width: 30%;
+    }
+     #howWeStartedSection{
+         margin-left: 80%;
+    }
+     #aboutFacePic{
+         margin-left: 34%;
+         width: 40%;
+    }
+    /* ------------------------------ */
+    /* adjusts position and size of elements on the contact page */
+     label{
+         width: 50%;
+         margin-left: 20%;
+    }
+     input{
+         width: 80%;
+    }
+     textarea{
+         width: 90%;
+    }
+     .contactInfo{
+         height: auto;
+         padding: 0%;
+         width: 80%;
+         margin-left: 10%;
+    }
+    /* ------------------------------ */
+}
+/* Tablets */
+ @media only screen and (min-width: 768px) and (max-width: 992px){
+    /* Changes width of all col */
+     [class*="col-"] {
+         width: 100%;
+    }
+    /* makes unneeded stuff disappear */
+     nav{
+         display: none;
+    }
+     .icons{
+         display: none;
+    }
+     .sideLinks{
+         display: none;
+    }
+     #logo{
+         display: none;
+    }
+     .rightSection{
+         display: none;
+    }
+    /* ------------------------------ */
+    /* adjusts elements in the header */
+     .title{
+         width: 90%;
+         margin-left: 5%;
+    }
+     .dropdown{
+         display: block;
+    }
+    /* ------------------------------ */
+    /* adjusts the posistion and size of elements on the home page */
+     .articleTitles{
+         margin: 0 auto;
+    }
+     .mainArticlePic{
+         margin-top: 2%;
+         margin-left: 38%;
+         width: 25%;
+    }
+     .homeArticleSection{
+         padding: 0%;
+    }
+     .slideshowSection{
+         padding-left: 0%;
+         padding-bottom: 10%;
+         margin-top: 2%;
+    }
+     .featuredSectionButtons{
+         top: 45%;
+    }
+     .featuredTitles{
+         margin-left: 10%;
+         margin-top: 40%;
+         width: 85%;
+    }
+     #rightButton{
+         margin-left: 90.15%;
+    }
+     #leftButton{
+         margin-left: 9.9%;
+    }
+    /* ------------------------------ */
+    /* adjusts padding for the articles on the blog page */
+     #blogMainSection{
+         padding: 0%;
+    }
+    /* ------------------------------ */
+    /* adjusts the posistion and size of elements on the about page */
+     #howWeStartedSection{
+         margin-left: 36%;
+    }
+     .aboutSection{
+         margin-left: 0%;
+         margin-top: 1%;
+    }
+     .aboutPics{
+         width: 20%;
+         margin-right: 10%;
+    }
+     #aboutFacePic{
+         margin-left: 34%;
+         width: 40%;
+    }
+    /* ------------------------------ */
+    /* adjusts the position and size of elements on the contact page */
+     .contactInfo{
+         height: auto;
+         padding: 0%;
+         width: 80%;
+         margin-left: 10%;
+    }
+    /* ------------------------------ */
+}
+/* Regular desktops/laptops */
+ @media only screen and (min-width: 992px) and (max-width: 1100px) {
+    /* Makes text smaller */
+     .sideTitles{
+         font-size: 0.8em;
+    }
+     .sideLinks{
+         font-size: 0.8em;
+    }
+}
+/* Bigger desktop screens */
+ @media only screen and (min-width: 1100px) and (max-width: 1200px) {
+    /* Makes text and size smaller */
+     .sideTitles{
+         font-size: 0.8em;
+         height: 20%;
+    }
+}
+/* Extra large screens */
+ @media only screen and (min-width: 1200px) {
+}
+ 

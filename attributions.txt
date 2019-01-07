@@ -22,3 +22,26 @@ Map picture accessed from https://myanimelist.cdn-dena.com/s/common/uploaded_fil
 Pictures on blog page
 -------------------------
 Picture accessed from https://lh6.googleusercontent.com/-hmWtsOD4TcU/UAoHlpkdBcI/AAAAAAAAPA0/66ZNXrg3lbQ/s640/C%2520Users%2520Douglas%2520Pictures%2520K-On%2521%2520Movie%2520-%2520K-on-movie00054.jpg on Oct 21 2018
+
+Blog Slide Show pictures
+-------------------------
+Featured Slide Show Section all Accessesed on Nov 29 2018
+---
+Image 1: https://goboiano.com/wp-content/uploads/2017/10/K-On.jpg
+Image 2: https://cdn.animelon.com/videopictures/video-thumbnail-1500381037988.jpg
+Image 3: https://vignette.wikia.nocookie.net/k-on/images/3/3d/Studio_practice.jpg/revision/latest?cb=20140911130948
+
+Popular Slide Show Section all Accessed on Nov 29 2018
+Image 1: http://i.imgur.com/TfPqr8J.png
+Image 2: https://i.imgur.com/d3V7WtF.jpg
+Image 3: http://theakiba.com/images/2010/08/6470_1.jpg
+
+Newest Slide Show Section all Accessesed on Nov 29 2018
+---
+Image 1: https://vignette.wikia.nocookie.net/k-on/images/9/90/Black_blancmange.jpg/revision/latest?cb=20140907150042
+Image 2: https://vignette.wikia.nocookie.net/k-on/images/a/ad/Novelty_glasses.jpg/revision/latest?cb=20140829151942
+Image 3: https://randomc.net/image/K-ON/K-ON!!%20-%2016%20-%20Large%2004.jpg
+
+Fonts Used
+--------------------
+Accessed on Nov 29 2018: Raleway : https://fonts.google.com/?category=Serif,Sans+Serif,Display,Monospace&sort=popularity&selection.family=Raleway:400i
