@@ -22,7 +22,7 @@
       <!-- Also includes the nav bar -->
       <header>
          <a href="index.html"><img id="logo" class="col-1 floatLeft" alt="Logo Pic" src="images/logo.png"></a>
-         <h1 class="col-3 title">The Reviews</h1>
+         <h1 class="col-3 title">Fun Title Here</h1>
          <a href="https://www.reddit.com/"><img class="col-1 icons" alt="Reddit Pic" src="images/RedditLogo.png"></a>
          <a href="https://www.facebook.com/"><img class="col-1 icons" alt="FB Pic" src="images/FBLogo.png"></a>
          <a href="https://www.youtube.com/"><img class="col-1 icons" alt="Youtube Pic" src="images/YTLogo.png"></a>
@@ -53,9 +53,9 @@
          <div class="col-1 floatLeft sideLinks">
             <h2 id="quickLinks" class="center">Other Links</h2>
             <ul>
-            <li><a href="https://myanimelist.net/"><strong>My Anime List</strong></a></li>
-            <li><a href="https://www.crunchyroll.com/"><strong>Crunchyroll</strong></a></li>
-            <li><a href="https://www.netflix.com/ca/"><strong>Netflix</strong></a></li>
+            <li><a href="https://www.google.com/"><strong>Filler Link 1</strong></a></li>
+            <li><a href="https://www.google.com/"><strong>Filler Link</strong></a></li>
+            <li><a href="https://www.google.com/"><strong>Fillers</strong></a></li>
             </ul>
          </div>
          <!-- Holds where the slide show of featured articles should be and 2 news articles -->
@@ -63,49 +63,51 @@
             <!-- Slide show goes here -->
             <h2 id="mainTitle">Featured Articles</h2>
             <button class="featuredSectionButtons" id="leftButton" onclick="changeSlides('slideshowPic')">&#10094;</button>
-            <div><p class="featuredTitles">Tosche Station</p><img class="slideshowPic" alt="Money Pic" onclick="jumpToArticle(1)" src="images/slideshow1.jpg"></div>
-            <div><p class="featuredTitles">Memories of Alderaan</p><img class="slideshowPic" alt="Postcard Pic" onclick="jumpToArticle(2)" src="images/slideshow2.jpg"></div>
-            <div><p class="featuredTitles">An Experience with the Force</p><img class="slideshowPic"  alt="Band Pic" onclick="jumpToArticle(3)" src="images/slideshow3.jpg"></div>
+            <div><p class="featuredTitles">Tosche Station</p><img class="slideshowPic" alt="Money Pic" onclick="jumpToArticle(1)" src="https://picsum.photos/1280/720?random=10"></div>
+            <div><p class="featuredTitles">Memories of Alderaan</p><img class="slideshowPic" alt="Postcard Pic" onclick="jumpToArticle(2)" src="https://picsum.photos/1280/720?random=9"></div>
+            <div><p class="featuredTitles">An Experience with the Force</p><img class="slideshowPic"  alt="Band Pic" onclick="jumpToArticle(3)" src="https://picsum.photos/1280/720?random=8"></div>
             <button class="featuredSectionButtons" id="rightButton" onclick="changeSlides('slideshowPic')">&#10095;</button>
          </div>
 
-         <!-- Will display article info if user clicks on one of the slide shows -->
-         <div id="articleInfo" class="col-7 floatLeft"></div>
+       <!-- Will display article info if user clicks on one of the slide shows -->
+      <div id="articleInfo" class="col-7 floatLeft"></div>
 
-         <!-- Holds the slide show of newest and popular articles on the right side of the screen -->
+      <!-- Holds the slide show of newest and popular articles on the right side of the screen -->
          <div class="col-2 rightSection">
             <h2 class="rightHeaders">Newest Reviews</h2>
             <!-- Slide show goes here -->
             <button class="sideSectionButtons leftButtons" onclick="changeSlides('newSlideshowPic')">&#10094;</button>
-            <div><p class="sideTitles newTitles">Adventures in Dagobah</p><img class="newSlideshowPic" alt="Jello Pic" onclick="jumpToArticle(4)" src="images/newSlideshow1.jpg"></div>
-            <div><p class="sideTitles newTitles">A Strange Disturbance in the Force</p><img class="newSlideshowPic" alt="Funny Glasses Pic" onclick="jumpToArticle(5)" src="images/newSlideshow2.jpg"></div>
-            <div><p class="sideTitles newTitles">A Friend and Mentor: Qui-Gon Ginn</p><img class="newSlideshowPic"  alt="Sulking Pic" onclick="jumpToArticle(7)" src="images/newSlideshow3.jpg"></div>
+            <div><p class="sideTitles newTitles">Adventures in Dagobah</p><img class="newSlideshowPic" alt="Jello Pic" onclick="jumpToArticle(4)" src="https://picsum.photos/1280/720?random=7"></div>
+            <div><p class="sideTitles newTitles">A Strange Disturbance in the Force</p><img class="newSlideshowPic" alt="Funny Glasses Pic" onclick="jumpToArticle(5)" src="https://picsum.photos/1280/720?random=6"></div>
+            <div><p class="sideTitles newTitles">A Friend and Mentor: Qui-Gon Ginn</p><img class="newSlideshowPic"  alt="Sulking Pic" onclick="jumpToArticle(7)" src="https://picsum.photos/1280/720?random=5"></div>
             <button class="sideSectionButtons rightButtons" onclick="changeSlides('newSlideshowPic')">&#10095;</button>
          </div>
          <div class="col-2 rightSection">
             <h2 class="rightHeaders">Popular Reviews</h2>
             <!-- Slide show goes here -->
             <button class="sideSectionButtons leftButtons" onclick="changeSlides('popularSlideshowPic')">&#10094;</button>
-            <div><p class="sideTitles popularTitles">The High Ground 2: Loss of a Padawan and Brother</p><img class="popularSlideshowPic" alt="Group Pic" onclick="jumpToArticle(8)" src="images/popularSlideshow1.png"></div>
-            <div><p class="sideTitles popularTitles">The Conflict</p><img class="popularSlideshowPic" alt="Christmas Pic" onclick="jumpToArticle(9)" src="images/popularSlideshow2.jpg"></div>
-            <div><p class="sideTitles popularTitles">he Ultimate Sacrifice</p><img class="popularSlideshowPic"  alt="Sleeping Bag Pic" onclick="jumpToArticle(10)" src="images/popularSlideshow3.jpg"></div>
+            <div><p class="sideTitles popularTitles">The High Ground 2: Loss of a Padawan and Brother</p><img class="popularSlideshowPic" alt="Group Pic" onclick="jumpToArticle(8)" src="https://picsum.photos/1280/720?random=4"></div>
+            <div><p class="sideTitles popularTitles">The Conflict</p><img class="popularSlideshowPic" alt="Christmas Pic" onclick="jumpToArticle(9)" src="https://picsum.photos/1280/720?random=3"></div>
+            <div><p class="sideTitles popularTitles">he Ultimate Sacrifice</p><img class="popularSlideshowPic"  alt="Sleeping Bag Pic" onclick="jumpToArticle(10)" src="https://picsum.photos/1280/720?random=2"></div>
             <button class="sideSectionButtons rightButtons" onclick="changeSlides('popularSlideshowPic')">&#10095;</button>
          </div>
+
+
 
          <!-- The next 3 sections display other articles -->
          <article class="col-3 floatLeft homeArticleSection">
             <h3 class="articleTitles">Dumby Title</h3>
-            <img class="col-3 floatLeft mainArticlePic" alt="News Pic 1" src="images/newsPic1.jpg">
+            <img class="col-3 floatLeft mainArticlePic" alt="News Pic 1" src="https://picsum.photos/100/100">
             <p class="article">Plays league of legends proudly present butt to human so purrr purr littel cat, little cat purr purr warm up laptop with butt lick butt fart rainbows until owner yells pee in litter box hiss at cats stinky cat eat grass, throw it back up. Chase dog then run away try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage and bite own foot, hard. </p>
          </article>
          <article class="col-3 floatLeft homeArticleSection">
             <h3 class="articleTitles">Description of About Page</h3>
-            <img class="col-3 floatLeft mainArticlePic" alt="News Pic 2" src="images/newsPic2.jpg">
+            <img class="col-3 floatLeft mainArticlePic" alt="News Pic 2" src="https://picsum.photos/100/100">
             <p class="article">This entity's main purpose is to provide reviews about different anime tv/movie series and reviews about different characters. The about page has 3 sections. It will talk about who writes the articles, what type of content they post, and how the website started up as a blog page.</p>
          </article>
          <article class="col-3 floatLeft homeArticleSection">
             <h3 class="articleTitles">Dumby Title</h3>
-            <img class="col-3 floatLeft mainArticlePic" alt="News Pic 3" src="images/newsPic3.jpg">
+            <img class="col-3 floatLeft mainArticlePic" alt="News Pic 3" src="https://picsum.photos/100/100">
             <p class="article"> is my right toy mouse squeak roll over eat the rubberband run outside as soon as door open crash against wall but walk away like nothing happened but bite the neighbor's bratty kid. Cough hairball, eat toilet paper hack paw at beetle and eat it before it gets away i love cuddles but meowwww and soft kitty warm kitty little ball of furr lie in the sink all day.</p>
          </article>
 
